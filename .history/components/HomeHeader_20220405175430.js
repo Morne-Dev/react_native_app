@@ -43,15 +43,15 @@ const HomeHeader = ({ onSearch }) => {
 
       </View>
 
-      <View style={{ marginTop: SIZES.font }}>
+      <View style={{marginTop: SIZES.font }}>
         <View style={{
           width: '100%',
           borderRadius: SIZES.font,
           backgroundColor: COLORS.gray,
-          flexDirection: 'row',
+          flexDrirection: 'row',
           alignItems: 'center',
           paddingHorizontal: SIZES.font,
-          paddingVertical: SIZES.small - 2
+          paddingVerticle: SIZES.small - 2
         }}>
           <Image 
             source={assets.search}
